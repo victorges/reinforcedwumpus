@@ -2,6 +2,7 @@
   <library name="libthrift-0.9.2">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/lib/libthrift-0.9.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/slf4j-api-1.7.12.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
