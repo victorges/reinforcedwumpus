@@ -1,12 +1,50 @@
+#################
+# Compiled Code #
+#################
+*.pyc
 *.class
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+############
+# IntelliJ #
+############
 
-# Package Files #
-*.jar
-*.war
-*.ear
+**/.idea/*
+!**/.idea/libraries/
+!**/.idea/copyright/
+!**/.idea/misc.xml
+!**/.idea/modules.xml
+!**/.idea/compiler.xml
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+########
+# OS X #
+########
+
+**/.DS_Store
+
+#######
+# API #
+#######
+api/node_modules
+.sublime*
+
+##########
+# Thrift #
+##########
+server/thrift/gen/
+*.out
+*.out.meta
+
+###########
+# Sublime #
+###########
+*.sublime-project
+*.sublime-workspace
+
+###########
+# Madratz #
+###########
+
+server/out/
+server/service/META-INF/
+api/match*.txt
+
