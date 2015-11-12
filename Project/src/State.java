@@ -1,6 +1,9 @@
 class State {
     public enum Direction {
-        UP, LEFT, DOWN, RIGHT;
+        UP(0), LEFT(1), DOWN(2), RIGHT(3);
+
+        private final int int_v;
+        Direction(int int_v) {this.int_v = int_v;}
 
         public Direction rotateLeft() {
             switch (this) {
@@ -29,6 +32,20 @@ class State {
                 case DOWN: coords[1]--; break;
                 case LEFT: coords[0]--; break;
                 default: throw new IllegalStateException();
+            }
+        }
+
+        public int intValue() {
+            return int_v;
+        }
+
+        public static Direction fromInt(int int_v) {
+            switch (int_v) {
+                case 0: return UP;
+                case 1: return LEFT;
+                case 2: return DOWN;
+                case 3: return RIGHT;
+                default: throw new IllegalArgumentException();
             }
         }
     }
@@ -110,5 +127,35 @@ class State {
         } else {
             return new State(x, y, facingDirection, gameStateFlags, new Sensors(), 0);
         }
+    }
+
+    public int intValue() {
+        // 4 bits for each field
+        assert (x & 0xF) == 0;
+        assert (y & 0xF) == 0;
+        assert (facingDirection.intValue() & 0xF) == 0;
+        assert (gameStateFlags & 0xF) == 0;
+        return (x << 12) | (y << 8) | (facingDirection.intValue() << 4) | gameStateFlags;
+    }
+
+    public static State fromIntValue(int int_v) {
+        int stateFlags = int_v & 0xF;
+        Direction dir = Direction.fromInt((int_v >> 4) & 0xF);
+        int x = (int_v >> 12) & 0xF, y = (int_v >> 8) & 0xF;
+
+        return new State(x, y, dir, stateFlags, null, 0);
+    }
+
+    @Override
+    public int hashCode() {
+        return Integer.hashCode(intValue());
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof State)) return false;
+
+        return intValue() == ((State) o).intValue();
     }
 }
