@@ -97,35 +97,35 @@ class State {
 
                 int[] coords = {x, y};
                 facingDirection.apply(coords);
-                return new State(coords[0], coords[1], facingDirection, gameStateFlags, sensors, 0);
+                return new State(coords[0], coords[1], facingDirection, gameStateFlags, sensors, -1);
             case TURNRIGHT:
-                return new State(x, y, facingDirection.rotateRight(), gameStateFlags, sensors, 0);
+                return new State(x, y, facingDirection.rotateRight(), gameStateFlags, sensors, -1);
             case TURNLEFT:
-                return new State(x, y, facingDirection.rotateLeft(), gameStateFlags, sensors, 0);
+                return new State(x, y, facingDirection.rotateLeft(), gameStateFlags, sensors, -1);
             case SHOOT:
                 if (hasUsedArrow()) break;
 
                 int state = gameStateFlags | USED_ARROW_MASK;
                 if (sensors.scream) state |= WUMPUS_DEAD_MASK;
-                return new State(x, y, facingDirection, state, sensors, -10);
+                return new State(x, y, facingDirection, state, sensors, -11);
             case GRAB:
                 if (!this.sensors.glitter) break;
 
                 // The actual points for the gold are only given when the player exits the cave, though we give half of
                 // them once the user collects the gold to guide the reinforcement learning to the gold quicker.
-                return new State(x, y, facingDirection, gameStateFlags | HAS_GOLD_MASK, sensors, 500);
+                return new State(x, y, facingDirection, gameStateFlags | HAS_GOLD_MASK, sensors, 499);
         }
         // Default to STAY action
-        return new State(x, y, facingDirection, gameStateFlags, sensors, 0);
+        return new State(x, y, facingDirection, gameStateFlags, sensors, -1);
     }
 
     public State finalState(Action action, GameResult result) {
         if (action == Action.CLIMB && result.score > 0) {
-            return new State(x, y, facingDirection, gameStateFlags, new Sensors(), 500);
+            return new State(x, y, facingDirection, gameStateFlags, null, 499);
         } else if (action == Action.FORWARD && result.score <= 1000) {
-            return new State(x, y, facingDirection, gameStateFlags, new Sensors(), -1000);
+            return new State(x, y, facingDirection, gameStateFlags, null, -1001);
         } else {
-            return new State(x, y, facingDirection, gameStateFlags, new Sensors(), 0);
+            return new State(x, y, facingDirection, gameStateFlags, null, -1);
         }
     }
 
