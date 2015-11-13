@@ -119,13 +119,13 @@ class State {
         return new State(x, y, facingDirection, gameStateFlags, sensors, -1);
     }
 
-    public State finalState(Action action, GameResult result) {
+    public int finalReinforcement(Action action, GameResult result) {
         if (action == Action.CLIMB && result.score > 0) {
-            return new State(x, y, facingDirection, gameStateFlags, null, 499);
+            return 499;
         } else if (action == Action.FORWARD && result.score <= 1000) {
-            return new State(x, y, facingDirection, gameStateFlags, null, -1001);
+            return -1001;
         } else {
-            return new State(x, y, facingDirection, gameStateFlags, null, -1);
+            return -1;
         }
     }
 
@@ -148,7 +148,7 @@ class State {
 
     @Override
     public int hashCode() {
-        return Integer.hashCode(intValue());
+        return ((Integer)intValue()).hashCode();
     }
 
     @Override
