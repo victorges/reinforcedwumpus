@@ -1,0 +1,803 @@
+/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/bin/java -Didea.launcher.port=7554 "-Didea.launcher.bin.path=/Applications/IntelliJ IDEA 14 CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath "/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/lib/tools.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Users/victorgelias/OneDrive/Documents/ITA/CTC-17/Lab3/reinforcedwumpus/Project/out/production/simulator:/Users/victorgelias/OneDrive/Documents/ITA/CTC-17/Lab3/reinforcedwumpus/Project/out/production/WumpusAI:/Users/victorgelias/OneDrive/Documents/ITA/CTC-17/Lab3/reinforcedwumpus/Project/lib/libthrift-0.9.2.jar:/Users/victorgelias/OneDrive/Documents/ITA/CTC-17/Lab3/reinforcedwumpus/Project/lib/slf4j-api-1.7.12.jar:/Applications/IntelliJ IDEA 14 CE.app/Contents/lib/idea_rt.jar" com.intellij.rt.execution.application.AppMain Main 400
+Running simulation 0
+Finished simulation, score: -1014
+Running simulation 1
+Finished simulation, score: -1032
+Running simulation 2
+Finished simulation, score: -1082
+Running simulation 3
+Finished simulation, score: -1003
+Running simulation 4
+Finished simulation, score: -1028
+Running simulation 5
+Finished simulation, score: -1061
+Running simulation 6
+Finished simulation, score: -1022
+Running simulation 7
+Finished simulation, score: -1156
+Running simulation 8
+Finished simulation, score: -1003
+Running simulation 9
+Finished simulation, score: -1121
+Running simulation 10
+Finished simulation, score: -1046
+Running simulation 11
+Finished simulation, score: 882
+Running simulation 12
+Finished simulation, score: -1055
+Running simulation 13
+Finished simulation, score: -1020
+Running simulation 14
+Finished simulation, score: -1080
+Running simulation 15
+Finished simulation, score: -1042
+Running simulation 16
+Finished simulation, score: -1042
+Running simulation 17
+Finished simulation, score: -1134
+Running simulation 18
+Finished simulation, score: -1072
+Running simulation 19
+Finished simulation, score: -1109
+Running simulation 20
+Finished simulation, score: -1105
+Running simulation 21
+Finished simulation, score: 922
+Running simulation 22
+Finished simulation, score: 957
+Running simulation 23
+Finished simulation, score: -1050
+Running simulation 24
+Finished simulation, score: -1065
+Running simulation 25
+Finished simulation, score: -160
+Running simulation 26
+Finished simulation, score: -1053
+Running simulation 27
+Finished simulation, score: -160
+Running simulation 28
+Finished simulation, score: -160
+Running simulation 29
+Finished simulation, score: -160
+Running simulation 30
+Finished simulation, score: -1057
+Running simulation 31
+Finished simulation, score: -1075
+Running simulation 32
+Finished simulation, score: -1006
+Running simulation 33
+Finished simulation, score: -160
+Running simulation 34
+Finished simulation, score: -1017
+Running simulation 35
+Finished simulation, score: -1093
+Running simulation 36
+Finished simulation, score: -1008
+Running simulation 37
+Finished simulation, score: -1143
+Running simulation 38
+Finished simulation, score: -1029
+Running simulation 39
+Finished simulation, score: -1038
+Running simulation 40
+Finished simulation, score: 931
+Running simulation 41
+Finished simulation, score: -160
+Running simulation 42
+Finished simulation, score: -1139
+Running simulation 43
+Finished simulation, score: -1023
+Running simulation 44
+Finished simulation, score: -160
+Running simulation 45
+Finished simulation, score: -1108
+Running simulation 46
+Finished simulation, score: -1060
+Running simulation 47
+Finished simulation, score: 963
+Running simulation 48
+Finished simulation, score: -160
+Running simulation 49
+Finished simulation, score: -160
+Running simulation 50
+Finished simulation, score: -160
+Running simulation 51
+Finished simulation, score: -1093
+Running simulation 52
+Finished simulation, score: -1007
+Running simulation 53
+Finished simulation, score: -1077
+Running simulation 54
+Finished simulation, score: -160
+Running simulation 55
+Finished simulation, score: -1013
+Running simulation 56
+Finished simulation, score: -160
+Running simulation 57
+Finished simulation, score: -160
+Running simulation 58
+Finished simulation, score: -1089
+Running simulation 59
+Finished simulation, score: -1021
+Running simulation 60
+Finished simulation, score: -160
+Running simulation 61
+Finished simulation, score: -1032
+Running simulation 62
+Finished simulation, score: -1125
+Running simulation 63
+Finished simulation, score: -1101
+Running simulation 64
+Finished simulation, score: -160
+Running simulation 65
+Finished simulation, score: -1021
+Running simulation 66
+Finished simulation, score: -1077
+Running simulation 67
+Finished simulation, score: -160
+Running simulation 68
+Finished simulation, score: -1011
+Running simulation 69
+Finished simulation, score: -160
+Running simulation 70
+Finished simulation, score: -160
+Running simulation 71
+Finished simulation, score: -160
+Running simulation 72
+Finished simulation, score: -1084
+Running simulation 73
+Finished simulation, score: -1041
+Running simulation 74
+Finished simulation, score: -160
+Running simulation 75
+Finished simulation, score: -1091
+Running simulation 76
+Finished simulation, score: -1099
+Running simulation 77
+Finished simulation, score: -1128
+Running simulation 78
+Finished simulation, score: -160
+Running simulation 79
+Finished simulation, score: -1064
+Running simulation 80
+Finished simulation, score: -160
+Running simulation 81
+Finished simulation, score: -1045
+Running simulation 82
+Finished simulation, score: -1012
+Running simulation 83
+Finished simulation, score: -1006
+Running simulation 84
+Finished simulation, score: -1097
+Running simulation 85
+Finished simulation, score: -160
+Running simulation 86
+Finished simulation, score: -160
+Running simulation 87
+Finished simulation, score: -1049
+Running simulation 88
+Finished simulation, score: -1122
+Running simulation 89
+Finished simulation, score: -160
+Running simulation 90
+Finished simulation, score: -160
+Running simulation 91
+Finished simulation, score: -1014
+Running simulation 92
+Finished simulation, score: -1095
+Running simulation 93
+Finished simulation, score: -160
+Running simulation 94
+Finished simulation, score: -1058
+Running simulation 95
+Finished simulation, score: -160
+Running simulation 96
+Finished simulation, score: -160
+Running simulation 97
+Finished simulation, score: -160
+Running simulation 98
+Finished simulation, score: -1114
+Running simulation 99
+Finished simulation, score: -1070
+Running simulation 100
+Finished simulation, score: -1035
+Running simulation 101
+Finished simulation, score: -160
+Running simulation 102
+Finished simulation, score: -160
+Running simulation 103
+Finished simulation, score: -1138
+Running simulation 104
+Finished simulation, score: -1034
+Running simulation 105
+Finished simulation, score: -1068
+Running simulation 106
+Finished simulation, score: -1111
+Running simulation 107
+Finished simulation, score: -1021
+Running simulation 108
+Finished simulation, score: -1087
+Running simulation 109
+Finished simulation, score: -1064
+Running simulation 110
+Finished simulation, score: -1142
+Running simulation 111
+Finished simulation, score: -1117
+Running simulation 112
+Finished simulation, score: -1038
+Running simulation 113
+Finished simulation, score: -1024
+Running simulation 114
+Finished simulation, score: -160
+Running simulation 115
+Finished simulation, score: -1014
+Running simulation 116
+Finished simulation, score: -1126
+Running simulation 117
+Finished simulation, score: -160
+Running simulation 118
+Finished simulation, score: -1085
+Running simulation 119
+Finished simulation, score: -1023
+Running simulation 120
+Finished simulation, score: -160
+Running simulation 121
+Finished simulation, score: -160
+Running simulation 122
+Finished simulation, score: -160
+Running simulation 123
+Finished simulation, score: -1070
+Running simulation 124
+Finished simulation, score: -160
+Running simulation 125
+Finished simulation, score: -1105
+Running simulation 126
+Finished simulation, score: -1063
+Running simulation 127
+Finished simulation, score: -160
+Running simulation 128
+Finished simulation, score: -1039
+Running simulation 129
+Finished simulation, score: -160
+Running simulation 130
+Finished simulation, score: -1021
+Running simulation 131
+Finished simulation, score: -1043
+Running simulation 132
+Finished simulation, score: -1041
+Running simulation 133
+Finished simulation, score: -1154
+Running simulation 134
+Finished simulation, score: -160
+Running simulation 135
+Finished simulation, score: -1063
+Running simulation 136
+Finished simulation, score: -1103
+Running simulation 137
+Finished simulation, score: -1051
+Running simulation 138
+Finished simulation, score: -1014
+Running simulation 139
+Finished simulation, score: -1106
+Running simulation 140
+Finished simulation, score: -160
+Running simulation 141
+Finished simulation, score: -1115
+Running simulation 142
+Finished simulation, score: 915
+Running simulation 143
+Finished simulation, score: 964
+Running simulation 144
+Finished simulation, score: -1061
+Running simulation 145
+Finished simulation, score: -160
+Running simulation 146
+Finished simulation, score: -1014
+Running simulation 147
+Finished simulation, score: -1018
+Running simulation 148
+Finished simulation, score: -150
+Running simulation 149
+Finished simulation, score: 958
+Running simulation 150
+Finished simulation, score: -160
+Running simulation 151
+Finished simulation, score: -1159
+Running simulation 152
+Finished simulation, score: -160
+Running simulation 153
+Finished simulation, score: -1114
+Running simulation 154
+Finished simulation, score: -1136
+Running simulation 155
+Finished simulation, score: -1141
+Running simulation 156
+Finished simulation, score: -160
+Running simulation 157
+Finished simulation, score: -1070
+Running simulation 158
+Finished simulation, score: -160
+Running simulation 159
+Finished simulation, score: -160
+Running simulation 160
+Finished simulation, score: -160
+Running simulation 161
+Finished simulation, score: -1038
+Running simulation 162
+Finished simulation, score: -1016
+Running simulation 163
+Finished simulation, score: -1156
+Running simulation 164
+Finished simulation, score: -160
+Running simulation 165
+Finished simulation, score: -1098
+Running simulation 166
+Finished simulation, score: 949
+Running simulation 167
+Finished simulation, score: 977
+Running simulation 168
+Finished simulation, score: -160
+Running simulation 169
+Finished simulation, score: -1047
+Running simulation 170
+Finished simulation, score: 905
+Running simulation 171
+Finished simulation, score: 975
+Running simulation 172
+Finished simulation, score: 972
+Running simulation 173
+Finished simulation, score: 974
+Running simulation 174
+Finished simulation, score: 976
+Running simulation 175
+Finished simulation, score: -160
+Running simulation 176
+Finished simulation, score: -160
+Running simulation 177
+Finished simulation, score: 968
+Running simulation 178
+Finished simulation, score: 973
+Running simulation 179
+Finished simulation, score: -1117
+Running simulation 180
+Finished simulation, score: -1056
+Running simulation 181
+Finished simulation, score: 969
+Running simulation 182
+Finished simulation, score: -160
+Running simulation 183
+Finished simulation, score: 976
+Running simulation 184
+Finished simulation, score: 972
+Running simulation 185
+Finished simulation, score: 976
+Running simulation 186
+Finished simulation, score: -160
+Running simulation 187
+Finished simulation, score: 977
+Running simulation 188
+Finished simulation, score: 976
+Running simulation 189
+Finished simulation, score: 976
+Running simulation 190
+Finished simulation, score: 973
+Running simulation 191
+Finished simulation, score: 977
+Running simulation 192
+Finished simulation, score: 971
+Running simulation 193
+Finished simulation, score: 975
+Running simulation 194
+Finished simulation, score: 975
+Running simulation 195
+Finished simulation, score: 977
+Running simulation 196
+Finished simulation, score: 976
+Running simulation 197
+Finished simulation, score: 975
+Running simulation 198
+Finished simulation, score: 977
+Running simulation 199
+Finished simulation, score: 977
+Running simulation 200
+Finished simulation, score: 965
+Running simulation 201
+Finished simulation, score: 976
+Running simulation 202
+Finished simulation, score: 977
+Running simulation 203
+Finished simulation, score: 977
+Running simulation 204
+Finished simulation, score: 962
+Running simulation 205
+Finished simulation, score: 973
+Running simulation 206
+Finished simulation, score: 976
+Running simulation 207
+Finished simulation, score: -1120
+Running simulation 208
+Finished simulation, score: 977
+Running simulation 209
+Finished simulation, score: 976
+Running simulation 210
+Finished simulation, score: 976
+Running simulation 211
+Finished simulation, score: 977
+Running simulation 212
+Finished simulation, score: 977
+Running simulation 213
+Finished simulation, score: 976
+Running simulation 214
+Finished simulation, score: 986
+Running simulation 215
+Finished simulation, score: 974
+Running simulation 216
+Finished simulation, score: 975
+Running simulation 217
+Finished simulation, score: 977
+Running simulation 218
+Finished simulation, score: 971
+Running simulation 219
+Finished simulation, score: 975
+Running simulation 220
+Finished simulation, score: 977
+Running simulation 221
+Finished simulation, score: 977
+Running simulation 222
+Finished simulation, score: 977
+Running simulation 223
+Finished simulation, score: -1050
+Running simulation 224
+Finished simulation, score: 975
+Running simulation 225
+Finished simulation, score: 977
+Running simulation 226
+Finished simulation, score: -1043
+Running simulation 227
+Finished simulation, score: 977
+Running simulation 228
+Finished simulation, score: 914
+Running simulation 229
+Finished simulation, score: -1036
+Running simulation 230
+Finished simulation, score: 975
+Running simulation 231
+Finished simulation, score: 977
+Running simulation 232
+Finished simulation, score: 974
+Running simulation 233
+Finished simulation, score: 976
+Running simulation 234
+Finished simulation, score: 977
+Running simulation 235
+Finished simulation, score: 977
+Running simulation 236
+Finished simulation, score: 976
+Running simulation 237
+Finished simulation, score: 977
+Running simulation 238
+Finished simulation, score: 963
+Running simulation 239
+Finished simulation, score: 988
+Running simulation 240
+Finished simulation, score: 985
+Running simulation 241
+Finished simulation, score: 988
+Running simulation 242
+Finished simulation, score: 988
+Running simulation 243
+Finished simulation, score: 987
+Running simulation 244
+Finished simulation, score: 987
+Running simulation 245
+Finished simulation, score: 987
+Running simulation 246
+Finished simulation, score: 987
+Running simulation 247
+Finished simulation, score: 986
+Running simulation 248
+Finished simulation, score: -1043
+Running simulation 249
+Finished simulation, score: 986
+Running simulation 250
+Finished simulation, score: -1038
+Running simulation 251
+Finished simulation, score: 974
+Running simulation 252
+Finished simulation, score: 970
+Running simulation 253
+Finished simulation, score: 988
+Running simulation 254
+Finished simulation, score: 988
+Running simulation 255
+Finished simulation, score: 986
+Running simulation 256
+Finished simulation, score: 987
+Running simulation 257
+Finished simulation, score: 971
+Running simulation 258
+Finished simulation, score: 988
+Running simulation 259
+Finished simulation, score: -1006
+Running simulation 260
+Finished simulation, score: -160
+Running simulation 261
+Finished simulation, score: 988
+Running simulation 262
+Finished simulation, score: 976
+Running simulation 263
+Finished simulation, score: 988
+Running simulation 264
+Finished simulation, score: 988
+Running simulation 265
+Finished simulation, score: 988
+Running simulation 266
+Finished simulation, score: 987
+Running simulation 267
+Finished simulation, score: 987
+Running simulation 268
+Finished simulation, score: 988
+Running simulation 269
+Finished simulation, score: 986
+Running simulation 270
+Finished simulation, score: 985
+Running simulation 271
+Finished simulation, score: -160
+Running simulation 272
+Finished simulation, score: 987
+Running simulation 273
+Finished simulation, score: 988
+Running simulation 274
+Finished simulation, score: 987
+Running simulation 275
+Finished simulation, score: 988
+Running simulation 276
+Finished simulation, score: 984
+Running simulation 277
+Finished simulation, score: -1121
+Running simulation 278
+Finished simulation, score: 988
+Running simulation 279
+Finished simulation, score: 986
+Running simulation 280
+Finished simulation, score: 987
+Running simulation 281
+Finished simulation, score: 988
+Running simulation 282
+Finished simulation, score: 988
+Running simulation 283
+Finished simulation, score: 987
+Running simulation 284
+Finished simulation, score: 986
+Running simulation 285
+Finished simulation, score: 970
+Running simulation 286
+Finished simulation, score: 987
+Running simulation 287
+Finished simulation, score: 988
+Running simulation 288
+Finished simulation, score: 988
+Running simulation 289
+Finished simulation, score: 988
+Running simulation 290
+Finished simulation, score: -1006
+Running simulation 291
+Finished simulation, score: 988
+Running simulation 292
+Finished simulation, score: -160
+Running simulation 293
+Finished simulation, score: 986
+Running simulation 294
+Finished simulation, score: 985
+Running simulation 295
+Finished simulation, score: 985
+Running simulation 296
+Finished simulation, score: 987
+Running simulation 297
+Finished simulation, score: 985
+Running simulation 298
+Finished simulation, score: 988
+Running simulation 299
+Finished simulation, score: 988
+Running simulation 300
+Finished simulation, score: 988
+Running simulation 301
+Finished simulation, score: 988
+Running simulation 302
+Finished simulation, score: 987
+Running simulation 303
+Finished simulation, score: -160
+Running simulation 304
+Finished simulation, score: 985
+Running simulation 305
+Finished simulation, score: 988
+Running simulation 306
+Finished simulation, score: 988
+Running simulation 307
+Finished simulation, score: 988
+Running simulation 308
+Finished simulation, score: 988
+Running simulation 309
+Finished simulation, score: 986
+Running simulation 310
+Finished simulation, score: -160
+Running simulation 311
+Finished simulation, score: 987
+Running simulation 312
+Finished simulation, score: 988
+Running simulation 313
+Finished simulation, score: 987
+Running simulation 314
+Finished simulation, score: 988
+Running simulation 315
+Finished simulation, score: 985
+Running simulation 316
+Finished simulation, score: -1063
+Running simulation 317
+Finished simulation, score: 987
+Running simulation 318
+Finished simulation, score: 988
+Running simulation 319
+Finished simulation, score: 988
+Running simulation 320
+Finished simulation, score: 985
+Running simulation 321
+Finished simulation, score: 987
+Running simulation 322
+Finished simulation, score: 988
+Running simulation 323
+Finished simulation, score: 987
+Running simulation 324
+Finished simulation, score: 987
+Running simulation 325
+Finished simulation, score: 987
+Running simulation 326
+Finished simulation, score: 986
+Running simulation 327
+Finished simulation, score: -1121
+Running simulation 328
+Finished simulation, score: 984
+Running simulation 329
+Finished simulation, score: 988
+Running simulation 330
+Finished simulation, score: 986
+Running simulation 331
+Finished simulation, score: 987
+Running simulation 332
+Finished simulation, score: 987
+Running simulation 333
+Finished simulation, score: 988
+Running simulation 334
+Finished simulation, score: 987
+Running simulation 335
+Finished simulation, score: 987
+Running simulation 336
+Finished simulation, score: -1028
+Running simulation 337
+Finished simulation, score: 975
+Running simulation 338
+Finished simulation, score: 988
+Running simulation 339
+Finished simulation, score: 988
+Running simulation 340
+Finished simulation, score: 987
+Running simulation 341
+Finished simulation, score: 984
+Running simulation 342
+Finished simulation, score: 986
+Running simulation 343
+Finished simulation, score: 987
+Running simulation 344
+Finished simulation, score: -160
+Running simulation 345
+Finished simulation, score: 984
+Running simulation 346
+Finished simulation, score: -1094
+Running simulation 347
+Finished simulation, score: 987
+Running simulation 348
+Finished simulation, score: 983
+Running simulation 349
+Finished simulation, score: 987
+Running simulation 350
+Finished simulation, score: 977
+Running simulation 351
+Finished simulation, score: 988
+Running simulation 352
+Finished simulation, score: 988
+Running simulation 353
+Finished simulation, score: -1146
+Running simulation 354
+Finished simulation, score: 988
+Running simulation 355
+Finished simulation, score: -160
+Running simulation 356
+Finished simulation, score: 988
+Running simulation 357
+Finished simulation, score: 988
+Running simulation 358
+Finished simulation, score: 987
+Running simulation 359
+Finished simulation, score: 988
+Running simulation 360
+Finished simulation, score: 985
+Running simulation 361
+Finished simulation, score: 988
+Running simulation 362
+Finished simulation, score: 988
+Running simulation 363
+Finished simulation, score: 988
+Running simulation 364
+Finished simulation, score: 988
+Running simulation 365
+Finished simulation, score: 988
+Running simulation 366
+Finished simulation, score: 987
+Running simulation 367
+Finished simulation, score: 986
+Running simulation 368
+Finished simulation, score: 988
+Running simulation 369
+Finished simulation, score: 988
+Running simulation 370
+Finished simulation, score: 988
+Running simulation 371
+Finished simulation, score: 987
+Running simulation 372
+Finished simulation, score: 987
+Running simulation 373
+Finished simulation, score: 962
+Running simulation 374
+Finished simulation, score: -1023
+Running simulation 375
+Finished simulation, score: 988
+Running simulation 376
+Finished simulation, score: -1028
+Running simulation 377
+Finished simulation, score: -1007
+Running simulation 378
+Finished simulation, score: -1006
+Running simulation 379
+Finished simulation, score: 987
+Running simulation 380
+Finished simulation, score: 988
+Running simulation 381
+Finished simulation, score: 988
+Running simulation 382
+Finished simulation, score: 988
+Running simulation 383
+Finished simulation, score: -1149
+Running simulation 384
+Finished simulation, score: 954
+Running simulation 385
+Finished simulation, score: -1050
+Running simulation 386
+Finished simulation, score: 988
+Running simulation 387
+Finished simulation, score: 983
+Running simulation 388
+Finished simulation, score: 987
+Running simulation 389
+Finished simulation, score: 988
+Running simulation 390
+Finished simulation, score: 987
+Running simulation 391
+Finished simulation, score: 988
+Running simulation 392
+Finished simulation, score: -1083
+Running simulation 393
+Finished simulation, score: 988
+Running simulation 394
+Finished simulation, score: 986
+Running simulation 395
+Finished simulation, score: 987
+Running simulation 396
+Finished simulation, score: 985
+Running simulation 397
+Finished simulation, score: 988
+Running simulation 398
+Finished simulation, score: 988
+Running simulation 399
+Finished simulation, score: -160
+
+Process finished with exit code 0
