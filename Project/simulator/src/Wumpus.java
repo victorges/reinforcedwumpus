@@ -1,6 +1,6 @@
 public class Wumpus {
 
-    private static boolean DEBUG = true;
+    private static boolean DEBUG = false;
 
     public enum TileType {
         EMPTY, PIT, GOLD, WUMPUS, ENTRY
