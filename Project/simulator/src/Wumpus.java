@@ -1,18 +1,18 @@
 public class Wumpus {
 
-    private static boolean DEBUG = false;
+    private static final boolean DEBUG = false;
 
     public enum TileType {
         EMPTY, PIT, GOLD, WUMPUS, ENTRY
     }
 
-    private static TileType[][] TABLE = {
+    private static final TileType[][] TABLE = {
             {TileType.ENTRY , TileType.EMPTY, TileType.PIT  , TileType.EMPTY},
             {TileType.EMPTY , TileType.EMPTY, TileType.EMPTY, TileType.EMPTY},
             {TileType.WUMPUS, TileType.GOLD , TileType.PIT  , TileType.EMPTY},
             {TileType.EMPTY , TileType.EMPTY, TileType.EMPTY, TileType.PIT}
     };
-    private static int WUMPUS_X = 0, WUMPUS_Y = 2;
+    private static final int WUMPUS_X = 0, WUMPUS_Y = 2;
 
     private ClientLogic mClientLogic;
 

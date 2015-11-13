@@ -1,7 +1,13 @@
-import java.io.*;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
 
 public class ClientLogic {
-    private static final String FILE_NAME = "wumpus01.data";
+
+    private static final float EPS = 0.0f;
+    private static final String FILE_NAME = "wumpus-" + EPS + ".data";
+
+    private static final float ALPHA_DECAY = 0.999f;
 
     private QTable mQTable;
     private State mLastState;
@@ -15,9 +21,9 @@ public class ClientLogic {
      */
     public ClientLogic(GameInit gameInit) {
         try (FileInputStream fin = new FileInputStream(FILE_NAME)) {
-            mQTable = QTable.fromSerialized(fin);
+            mQTable = QTable.fromSerialized(fin, ALPHA_DECAY);
         } catch (IOException e) {
-            mQTable = new QTable(0.9f, 1.0f, 0.1f);
+            mQTable = new QTable(0.9f, 1.0f, EPS);
         }
     }
 

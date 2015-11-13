@@ -45,6 +45,7 @@ public class QTable {
         int numBestValue = 0;
 
         for (Map.Entry<Action, Float> entry : stateActions(state).entrySet()) {
+//            System.out.println(entry.getKey() + ", " + entry.getValue());
             if (entry.getValue() > bestValue) {
                 bestValue = entry.getValue();
                 bestAction = entry.getKey();
@@ -89,14 +90,14 @@ public class QTable {
         return actions;
     }
 
-    static public QTable fromSerialized(InputStream inputStream) {
+    static public QTable fromSerialized(InputStream inputStream, float alphaDecay) {
         BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
         Scanner scanner = new Scanner(reader);
 
         final Map<State, EnumMap<Action, Float>> table = new HashMap<>();
 
         float gamma = scanner.nextFloat();
-        float alpha = scanner.nextFloat();
+        float alpha = scanner.nextFloat() * alphaDecay;
         float eps = scanner.nextFloat();
 
         while (scanner.hasNext()) {
