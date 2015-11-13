@@ -113,7 +113,7 @@ class State {
 
                 // The actual points for the gold are only given when the player exits the cave, though we give half of
                 // them once the user collects the gold to guide the reinforcement learning to the gold quicker.
-                return new State(x, y, facingDirection, gameStateFlags | HAS_GOLD_MASK, sensors, 499);
+                return new State(x, y, facingDirection, gameStateFlags | HAS_GOLD_MASK, sensors, -1);
         }
         // Default to STAY action
         return new State(x, y, facingDirection, gameStateFlags, sensors, -1);
@@ -121,7 +121,7 @@ class State {
 
     public int finalReinforcement(Action action, GameResult result) {
         if (action == Action.CLIMB && result.score > 0) {
-            return 499;
+            return 999;
         } else if (action == Action.FORWARD && result.score <= 1000) {
             return -1001;
         } else {

@@ -33,6 +33,7 @@ public class Wumpus {
         int score = 0;
         for (int turn = 0; turn < 150; turn++) {
             Command command = mClientLogic.playTurn(new WorldModel(playerSensors()), turn);
+            logDebug(turn + ": " + command.action);
             score += handleCommand(command) - 1; // every action deducts score by 1
 
             if (mEndOfGame) break;
@@ -90,7 +91,7 @@ public class Wumpus {
                 }
                 return 0;
             case CLIMB:
-                if (playerTile() != TileType.ENTRY) return 0;
+                if (playerTile() != TileType.ENTRY || !mHasGold) return 0;
                 logDebug("Climbed out" + (mHasGold ? " with the gold!" : "!"));
                 mEndOfGame = true;
                 return mHasGold ? 1000 : 0;

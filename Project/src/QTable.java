@@ -17,7 +17,7 @@ public class QTable {
     }
 
     public void update(State state, Action action, State nextState) {
-        float bestValue = Float.MIN_VALUE;
+        float bestValue = Float.NEGATIVE_INFINITY;
         for (float value : stateActions(nextState).values()) {
             if (value > bestValue) bestValue = value;
         }
@@ -41,14 +41,15 @@ public class QTable {
      */
     public Action exploit(State state) {
         Action bestAction = null;
-        float bestValue = Float.MIN_VALUE;
+        float bestValue = Float.NEGATIVE_INFINITY;
         int numBestValue = 0;
 
         for (Map.Entry<Action, Float> entry : stateActions(state).entrySet()) {
             if (entry.getValue() > bestValue) {
+                bestValue = entry.getValue();
                 bestAction = entry.getKey();
                 numBestValue = 1;
-            } else if (entry.getValue() == bestValue && pickOneIn(numBestValue++)) {
+            } else if (entry.getValue() == bestValue && pickOneIn(++numBestValue)) {
                 bestAction = entry.getKey();
             }
         }
@@ -57,15 +58,14 @@ public class QTable {
 
     public Action exploitOrExplore(State state) {
         if (Math.random() < mEps) {
-            return exploit(state);
-        }
-        else {
             return explore(state);
+        } else {
+            return exploit(state);
         }
     };
 
     private static boolean pickOneIn(int n) {
-        return n < 1 / Math.random();
+        return Math.random() * n < 1;
     }
 
     /**
@@ -133,5 +133,6 @@ public class QTable {
                 printWriter.print("\n");
             }
         }
+        printWriter.flush();
     }
 }

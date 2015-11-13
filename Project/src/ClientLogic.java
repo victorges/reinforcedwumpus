@@ -1,10 +1,8 @@
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
+import java.io.*;
 
 public class ClientLogic {
-    private static String fileName;
+    private static final String FILE_NAME = "wumpus01.data";
+
     private QTable mQTable;
     private State mLastState;
     private Action mLastAction;
@@ -16,18 +14,10 @@ public class ClientLogic {
      *     gameInit - depends on the game. It will contain necessary information for initialization.
      */
     public ClientLogic(GameInit gameInit) {
-        try {
-            File file = new File(fileName);
-            FileInputStream fin = new FileInputStream(file);
-            QTable qTable;
-            if (file.exists() && !file.isDirectory()) {
-                qTable = QTable.fromSerialized(fin);
-            }
-            else {
-                qTable = new QTable(0.9f, 1.0f, 0.01f);
-            }
-        } catch (FileNotFoundException e) {
-            throw new RuntimeException(e);
+        try (FileInputStream fin = new FileInputStream(FILE_NAME)) {
+            mQTable = QTable.fromSerialized(fin);
+        } catch (IOException e) {
+            mQTable = new QTable(0.9f, 1.0f, 0.1f);
         }
     }
 
@@ -67,11 +57,9 @@ public class ClientLogic {
         int finalReinforcement = mLastState.finalReinforcement(mLastAction, result);
         mQTable.update(mLastState, mLastAction, finalReinforcement);
 
-        File file = new File(fileName);
-        try {
-            FileOutputStream fout = new FileOutputStream(file, false);
+        try (FileOutputStream fout = new FileOutputStream(FILE_NAME, false)) {
             mQTable.serialize(fout);
-        } catch (FileNotFoundException e) {
+        } catch (IOException e) {
             e.printStackTrace();
         }
     }
