@@ -4,15 +4,21 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class QTable {
+class QTable {
+
     private Map<State, EnumMap<Action, Float>> mTable = new HashMap<>();
+
     private final float mGamma;
     private final float mAlpha;
-    private final float mEps;
+    private float mEps;
 
     public QTable(float gamma, float alpha, float eps) {
         mGamma = gamma;
         mAlpha = alpha;
+        mEps = eps;
+    }
+
+    public void setExplorationRatio(float eps) {
         mEps = eps;
     }
 
