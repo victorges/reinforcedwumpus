@@ -12,7 +12,16 @@ public class Wumpus {
             {TileType.WUMPUS, TileType.GOLD , TileType.PIT  , TileType.EMPTY},
             {TileType.EMPTY , TileType.EMPTY, TileType.EMPTY, TileType.PIT}
     };
-    private static final int WUMPUS_X = 0, WUMPUS_Y = 2;
+    private static final int WUMPUS_X, WUMPUS_Y;
+    static {
+        int x = 0, y;
+        outer: for (y = 0; y < TABLE.length; y++) {
+            for (x = 0; x < TABLE[y].length; x++) {
+                if (tileAt(x, y) == TileType.WUMPUS) break outer;
+            }
+        }
+        WUMPUS_X = x; WUMPUS_Y = y;
+    }
 
     private ClientLogic mClientLogic;
 
